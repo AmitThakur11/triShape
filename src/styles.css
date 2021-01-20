@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+  padding: 2rem;
+  width: max-content;
+  margin :auto;
+  background-image:url("https://i.pinimg.com/originals/bb/fa/62/bbfa62328a26352f5fa9008636e38124.jpg")
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  box-shadow: 2px 2px 16px 2px black;
+  width: 280px;
+  background-color: rgb(156, 185, 167);
+  height: 100%;
+  border-radius: 10px;
+  border: 0.09px solid black;
+}
+.head {
+  text-align: left;
+  padding: 1rem;
+  font-size: 3rem;
+  color: wheat;
+}
+img {
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+input {
+  height: 40px;
+  width: 40px;
+  outline: 0;
+  background-color: rgb(83, 109, 83);
+  border: 0;
+  border-radius: 10px;
+  font-family: "Bebas Neue", cursive;
+  box-shadow: 2px 2px 6px 2px grey;
+  text-align: center;
+}
+input:focus {
+  background-color: black;
+
+  color: white;
+}
+input:hover {
+  background-color: black;
+  color: white;
+}
+
+.result {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 6px 2px black;
+  width: max-content;
+  margin: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.result:hover {
+  background-color: black;
+}
+::placeholder {
+  color: white;
+}
+.triosum {
+  background-color: rgb(83, 109, 83);
+  outline: none;
+  border: 0;
+  border-color: 5rem;
+  margin-right: 0.6rem;
+  color: white;
+  margin-bottom: 1.8rem;
+  box-shadow: 2px 2px 6px 2px black;
+
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-family: "Bebas Neue", cursive;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.triosum:hover {
+  background-color: black;
+  color: white;
+}
+pre {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.list {
+  list-style: none;
+  text-align: center;
+}
+li {
+  display: inline;
+  padding: 0.5rem;
+}
+a {
+  padding: 0;
+}
+.gif {
+  margin-right: 1.1rem;
+}
+.footimg {
+  margin-top: 4rem;
+  height: 19px;
+  width: 19px;
+}
+ol {
+  margin: 0;
+  padding: 0;
+}
